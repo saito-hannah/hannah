@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#faf9f6">
+  <meta name="description" content="HANNAH SALON MANAGEMENT OS - 美容室経営の重要テーマを管理する経営ボード">
+  <title>HANNAH SALON MANAGEMENT OS｜PC版</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">H</div>
+        <div><strong>HANNAH</strong><span>SALON MANAGEMENT OS</span></div>
+      </div>
+
+      <button class="primary-create" data-action="new-theme"><span>＋</span> 経営テーマを追加</button>
+
+      <nav class="nav">
+        <button class="nav-item active" data-route="dashboard"><span>◫</span><b>経営ダッシュボード</b></button>
+        <button class="nav-item" data-route="themes"><span>◇</span><b>経営テーマ</b><em id="themeCount"></em></button>
+        <button class="nav-item" data-route="review"><span>◷</span><b>月次レビュー</b></button>
+        <button class="nav-item" data-route="kpi"><span>↗</span><b>KPI一覧</b></button>
+        <button class="nav-item" data-route="team"><span>♙</span><b>責任者</b></button>
+      </nav>
+
+      <div class="sidebar-note">
+        <span class="note-icon">◎</span>
+        <div><strong>経営テーマだけを管理</strong><p>日々の細かな作業や施術タスクは登録しません。1か月以上追う重要課題のみ扱います。</p></div>
+      </div>
+
+      <div class="sidebar-bottom">
+        <button class="nav-item" data-route="settings"><span>⚙</span><b>設定・バックアップ</b></button>
+        <div class="profile-card">
+          <div class="avatar gold">HM</div>
+          <div><strong>ハンナ</strong><span>経営管理者</span></div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="mobile-overlay" id="mobileOverlay" data-action="close-sidebar"></div>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn mobile-menu" data-action="toggle-sidebar" aria-label="メニュー">☰</button>
+        <div class="breadcrumb" id="breadcrumb">HANNAH / 経営ダッシュボード</div>
+        <div class="top-actions">
+          <button class="search-btn" data-action="open-search"><span>⌕</span><span>経営テーマを検索</span><kbd>⌘ K</kbd></button>
+          <button class="icon-btn" data-action="export" title="バックアップ">⇩</button>
+          <div class="avatar gold">HM</div>
+        </div>
+      </header>
+      <div id="content" class="content"></div>
+    </main>
+
+    <nav class="mobile-nav">
+      <button class="active" data-route="dashboard"><span>◫</span><b>ホーム</b></button>
+      <button data-route="themes"><span>◇</span><b>テーマ</b></button>
+      <button class="mobile-add" data-action="new-theme">＋</button>
+      <button data-route="review"><span>◷</span><b>レビュー</b></button>
+      <button data-route="kpi"><span>↗</span><b>KPI</b></button>
+    </nav>
+
+    <div id="drawerBackdrop" class="drawer-backdrop" hidden data-action="close-drawer"></div>
+    <aside id="drawer" class="drawer" hidden></aside>
+
+    <div id="modalBackdrop" class="modal-backdrop" hidden>
+      <div id="modal" class="modal"></div>
+    </div>
+
+    <div id="searchBackdrop" class="search-backdrop" hidden>
+      <div class="search-panel">
+        <div class="search-input"><span>⌕</span><input id="searchInput" placeholder="経営テーマ・重点施策・判断事項を検索"><kbd>ESC</kbd></div>
+        <div id="searchResults" class="search-results"></div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
