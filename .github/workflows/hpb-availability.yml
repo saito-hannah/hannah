@@ -3,13 +3,8 @@ name: Update HANNAH HPB availability
 on:
   workflow_dispatch:
   schedule:
-    # 09:05-20:05 JST
-    - cron: "5 0-11 * * *"
-  push:
-    branches: [main]
-    paths:
-      - "scripts/hpb-availability.mjs"
-      - ".github/workflows/hpb-availability.yml"
+    # 毎日 08:30 JST（定期報告の前に最新化）
+    - cron: "30 23 * * *"
 
 permissions:
   contents: write
