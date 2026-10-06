@@ -34,7 +34,7 @@ jobs:
       - name: Install Playwright
         run: |
           npm install --no-save playwright@1.55.0
-          npx playwright install --with-deps chromium
+          npx playwright install chromium
 
       - name: Fetch HPB availability
         run: node scripts/hpb-availability.mjs
