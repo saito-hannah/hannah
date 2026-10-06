@@ -5,6 +5,11 @@ on:
   schedule:
     # 毎日 08:30 JST（定期報告の前に最新化）
     - cron: "30 23 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/hpb-availability.mjs"
+      - ".github/workflows/hpb-availability.yml"
 
 permissions:
   contents: write
