@@ -94,11 +94,21 @@ async function parseSlots(page) {
         cells.slice(1).forEach((cell, j) => {
           if (!ok(cell)) return;
           const a = cell.querySelector("a[href]");
+          const href = a?.href || "";
+          let dateLabel = headers[j + 1] || "";
+          let slotTime = time;
+          try {
+            const u = href ? new URL(href) : null;
+            const d = u?.searchParams.get("rsvRequestDate1");
+            const t = u?.searchParams.get("rsvRequestTime1");
+            if (d && /^\d{8}$/.test(d)) dateLabel = d.slice(0, 4) + "-" + d.slice(4, 6) + "-" + d.slice(6, 8);
+            if (t && /^\d{4}$/.test(t)) slotTime = t.slice(0, 2) + ":" + t.slice(2, 4);
+          } catch {}
           out.push({
-            dateLabel: headers[j + 1] || "",
-            time,
+            dateLabel,
+            time: slotTime,
             status: c(cell.innerText || ""),
-            href: a?.href || ""
+            href
           });
         });
       }
