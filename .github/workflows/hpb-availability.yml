@@ -1,0 +1,48 @@
+name: Update HANNAH HPB availability
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 09:05-20:05 JST
+    - cron: "5 0-11 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/hpb-availability.mjs"
+      - ".github/workflows/hpb-availability.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hpb-availability
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: "20"
+
+      - name: Install Playwright
+        run: |
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Fetch HPB availability
+        run: node scripts/hpb-availability.mjs
+
+      - name: Commit latest availability
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add availability/latest.json
+          git diff --cached --quiet || git commit -m "Update HPB availability"
+          git push origin HEAD:main
