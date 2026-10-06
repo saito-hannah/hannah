@@ -52,7 +52,7 @@ async function advance(page) {
     await page.waitForTimeout(1000);
     const body = clean(await page.locator("body").innerText().catch(() => ""));
     if (/日時.*選択|予約日時|空き状況|空席/.test(body) &&
-        /\b(?:9|10|11|12|13|14|15|16|17|18|19|20):[0-5]\d\b/.test(body)) return;
+        /\b(?:9|10|11|12|13|14|15|16|17|18|19|20)[:：][0-5]\d\b/.test(body)) return;
 
     if (await clickFirst(page.getByText(/指名なし|指名しない|指定なし|フリー/, { exact: true }))) continue;
     if (await clickFirst(page.getByRole("link", { name: /指名なし|指名しない|指定なし|フリー/ }))) continue;
@@ -88,7 +88,7 @@ async function parseSlots(page) {
         const cells = [...row.querySelectorAll("th,td")];
         if (!cells.length) continue;
         const first = c(cells[0].innerText || "");
-        const time = first.match(/\b((?:[01]?\d|2[0-3]):[0-5]\d)\b/)?.[1];
+        const timeRaw = first.match(/\b((?:[01]?\d|2[0-3])[:：][0-5]\d)\b/)?.[1];\n        const time = timeRaw?.replace("：", ":");
         if (!time) continue;
         cells.slice(1).forEach((cell, j) => {
           if (!ok(cell)) return;
