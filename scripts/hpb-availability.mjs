@@ -88,7 +88,8 @@ async function parseSlots(page) {
         const cells = [...row.querySelectorAll("th,td")];
         if (!cells.length) continue;
         const first = c(cells[0].innerText || "");
-        const timeRaw = first.match(/\b((?:[01]?\d|2[0-3])[:：][0-5]\d)\b/)?.[1];\n        const time = timeRaw?.replace("：", ":");
+        const timeRaw = first.match(/\b((?:[01]?\d|2[0-3])[:：][0-5]\d)\b/)?.[1];
+        const time = timeRaw?.replace("：", ":");
         if (!time) continue;
         cells.slice(1).forEach((cell, j) => {
           if (!ok(cell)) return;
