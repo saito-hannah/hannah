@@ -1,7 +1,7 @@
 {
   "salon": "HANNAH名古屋",
   "salonId": "H000541642",
-  "checkedAt": "2026-10-06T23:27:43.455Z",
+  "checkedAt": "2026-10-07T02:34:17.579Z",
   "source": "https://beauty.hotpepper.jp/slnH000541642/coupon/",
   "status": "ok",
   "categories": {
@@ -15,18 +15,11 @@
         "score": 235,
         "url": "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000541642&couponId=CP00000011306640&add=0&addMenu=0&rootCd=10"
       },
-      "availableSlotCount": 46,
+      "availableSlotCount": 44,
       "dates": [
         {
           "dateLabel": "2026-10-13",
           "times": [
-            "14:30"
-          ]
-        },
-        {
-          "dateLabel": "2026-10-15",
-          "times": [
-            "14:00",
             "14:30"
           ]
         },
@@ -152,18 +145,6 @@
           "time": "14:30",
           "status": "◎",
           "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261013&rsvRequestTime1=1430"
-        },
-        {
-          "dateLabel": "2026-10-15",
-          "time": "14:00",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261015&rsvRequestTime1=1400"
-        },
-        {
-          "dateLabel": "2026-10-15",
-          "time": "14:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261015&rsvRequestTime1=1430"
         },
         {
           "dateLabel": "",
@@ -335,7 +316,7 @@
         "score": 250,
         "url": "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000541642&couponId=CP00000010470629&add=0&addMenu=0&rootCd=10"
       },
-      "availableSlotCount": 77,
+      "availableSlotCount": 74,
       "dates": [
         {
           "dateLabel": "2026-10-09",
@@ -377,8 +358,6 @@
             "12:00",
             "12:30",
             "13:00",
-            "14:30",
-            "15:00",
             "15:30",
             "16:00"
           ]
@@ -399,9 +378,7 @@
           "times": [
             "14:00",
             "14:30",
-            "15:00",
-            "15:30",
-            "16:00"
+            "15:00"
           ]
         },
         {
@@ -444,6 +421,8 @@
         {
           "dateLabel": "2026-10-20",
           "times": [
+            "14:00",
+            "14:30",
             "15:00",
             "15:30",
             "16:00"
@@ -621,18 +600,6 @@
         },
         {
           "dateLabel": "2026-10-13",
-          "time": "14:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261013&rsvRequestTime1=1430"
-        },
-        {
-          "dateLabel": "2026-10-13",
-          "time": "15:00",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261013&rsvRequestTime1=1500"
-        },
-        {
-          "dateLabel": "2026-10-13",
           "time": "15:30",
           "status": "◎",
           "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261013&rsvRequestTime1=1530"
@@ -720,24 +687,6 @@
           "time": "15:00",
           "status": "◎",
           "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261015&rsvRequestTime1=1500"
-        },
-        {
-          "dateLabel": "2026-10-15",
-          "time": "15:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261015&rsvRequestTime1=1530"
-        },
-        {
-          "dateLabel": "2026-10-15",
-          "time": "16:00",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261015&rsvRequestTime1=1600"
-        },
-        {
-          "dateLabel": "",
-          "time": "10:30",
-          "status": "◎",
-          "href": ""
         },
         {
           "dateLabel": "2026-10-16",
@@ -897,6 +846,18 @@
         },
         {
           "dateLabel": "2026-10-20",
+          "time": "14:00",
+          "status": "◎",
+          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261020&rsvRequestTime1=1400"
+        },
+        {
+          "dateLabel": "2026-10-20",
+          "time": "14:30",
+          "status": "◎",
+          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261020&rsvRequestTime1=1430"
+        },
+        {
+          "dateLabel": "2026-10-20",
           "time": "15:00",
           "status": "◎",
           "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261020&rsvRequestTime1=1500"
@@ -933,19 +894,8 @@
         "score": 270,
         "url": "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000541642&couponId=CP00000011054570&add=0&addMenu=0&rootCd=10"
       },
-      "availableSlotCount": 132,
+      "availableSlotCount": 123,
       "dates": [
-        {
-          "dateLabel": "2026-10-07",
-          "times": [
-            "10:30",
-            "11:00",
-            "11:30",
-            "16:30",
-            "17:00",
-            "17:30"
-          ]
-        },
         {
           "dateLabel": "2026-10-09",
           "times": [
@@ -1042,9 +992,6 @@
             "14:00",
             "14:30",
             "15:00",
-            "15:30",
-            "16:00",
-            "16:30",
             "17:00"
           ]
         },
@@ -1124,42 +1071,6 @@
         }
       ],
       "slots": [
-        {
-          "dateLabel": "2026-10-07",
-          "time": "10:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261007&rsvRequestTime1=1030"
-        },
-        {
-          "dateLabel": "2026-10-07",
-          "time": "11:00",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261007&rsvRequestTime1=1100"
-        },
-        {
-          "dateLabel": "2026-10-07",
-          "time": "11:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261007&rsvRequestTime1=1130"
-        },
-        {
-          "dateLabel": "2026-10-07",
-          "time": "16:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261007&rsvRequestTime1=1630"
-        },
-        {
-          "dateLabel": "2026-10-07",
-          "time": "17:00",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261007&rsvRequestTime1=1700"
-        },
-        {
-          "dateLabel": "2026-10-07",
-          "time": "17:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261007&rsvRequestTime1=1730"
-        },
         {
           "dateLabel": "2026-10-09",
           "time": "11:00",
@@ -1567,24 +1478,6 @@
           "time": "15:00",
           "status": "◎",
           "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261015&rsvRequestTime1=1500"
-        },
-        {
-          "dateLabel": "2026-10-15",
-          "time": "15:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261015&rsvRequestTime1=1530"
-        },
-        {
-          "dateLabel": "2026-10-15",
-          "time": "16:00",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261015&rsvRequestTime1=1600"
-        },
-        {
-          "dateLabel": "2026-10-15",
-          "time": "16:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261015&rsvRequestTime1=1630"
         },
         {
           "dateLabel": "2026-10-15",
