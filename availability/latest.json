@@ -1,7 +1,7 @@
 {
   "salon": "HANNAH名古屋",
   "salonId": "H000541642",
-  "checkedAt": "2026-11-02T02:39:55.744Z",
+  "checkedAt": "2026-11-03T03:58:35.244Z",
   "source": "https://beauty.hotpepper.jp/slnH000541642/coupon/",
   "status": "ok",
   "categories": {
@@ -9,13 +9,13 @@
       "key": "model",
       "label": "モデル施術",
       "status": "ok",
-      "reservationPage": "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000541642&couponId=CP00000010993728&add=0&addMenu=0&rootCd=10",
+      "reservationPage": "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000541642&couponId=CP00000011306640&add=0&addMenu=0&rootCd=10",
       "coupon": {
-        "title": "再 来 エクステ スタイリスト指定 ¥30,000 10月限定価格/付け替え限定/8,000円引/エクステつけ替え放題ダイヤ毛質 エクステ取外し後に、エクステダイヤつけ放題メニュー（カット代込み） ※プルエクステの取外しも可絡まりが多い方の場合は別途1,000円発生。 来店日条件： 指定なし 対象スタイリスト： HANNAH NAGOYA、atsuki 、ikki 、Yukino 、KANATA 、SUZUKA Jr、RICO Jr その他条件： エクステを付け替える方限定 このクーポンで 空席確認・予約する メニューを追加して予約 ブックマークする",
-        "score": 80,
-        "url": "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000541642&couponId=CP00000010993728&add=0&addMenu=0&rootCd=10"
+        "title": "全 員 カット カラー エクステ 期間限定 11/3(火)～11/15(日) スタイリスト指定 ¥30,000 【10月10名限定】モデル極つやカラー＋ダイヤ×スーパーロングMIX付け放題 ワンカラー＋エクステつけ放題の特別モデルクーポンです！注意事項・モデル施術のため返金、クレーム、お直しはお受けできません。・当日の施術予定時間が前後する場合がございます。 来店日条件： 2026年11月03日(火)～2026年11月15日(日) 対象スタイリスト： HANNAH NAGOYA、KANATA 、SUZUKA Jr、RICO Jr その他条件： SNS撮影が可能な方限定 このクーポンで 空席確認・予約する メニューを追加して予約 ブックマークする",
+        "score": 235,
+        "url": "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000541642&couponId=CP00000011306640&add=0&addMenu=0&rootCd=10"
       },
-      "availableSlotCount": 99,
+      "availableSlotCount": 97,
       "dates": [
         {
           "dateLabel": "2026-11-04",
@@ -141,9 +141,7 @@
             "12:30",
             "13:00",
             "13:30",
-            "14:00",
-            "14:30",
-            "15:00"
+            "14:00"
           ]
         },
         {
@@ -686,18 +684,6 @@
           "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261114&rsvRequestTime1=1400"
         },
         {
-          "dateLabel": "2026-11-14",
-          "time": "14:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261114&rsvRequestTime1=1430"
-        },
-        {
-          "dateLabel": "2026-11-14",
-          "time": "15:00",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261114&rsvRequestTime1=1500"
-        },
-        {
           "dateLabel": "2026-11-15",
           "time": "11:00",
           "status": "◎",
@@ -759,7 +745,7 @@
         }
       ],
       "note": "HPB公開予約画面の○/◎/△を空席として取得",
-      "pageHint": "HOT PEPPER Beauty 国内最大級のヘアサロン ・リラク＆ビューティーサロン検索・予約サイト PRODUCED BY RECRUIT 国内最大級のヘアサロン ・リラク＆ビューティーサロン検索・予約サイト ヘルプ マイページ 美容院・美容室・ヘアサロン検索トップ ヘアサロン ヘアスタイル ネイル・まつげサロン ネイルカタログ リラクサロン エステサロン 美容クリニック 総合トップ > 美容院・美容室・ヘアサロン検索トップ > 東海トップ > 名駅・栄・金山・御器所・本山・大曽根トップ > HANNAH名古屋 プルシールエクステ直営サロン【ハンナ】 即時予約 HANNAH名古屋 プルシールエクステ直営サロン【ハンナ】 ハンナ ナゴヤ プルシールエクステチョクエイサロン STEP1 クーポン・メニューを選ぶ STEP2 日時を指定する STEP3 お客様情報入力 STEP4 予約内容の確認 予約完了 選択済クーポン・メニュー 施術時間合計（目安）：2時間30分 再来 スタイリスト指定 10月限定価格/付け替え限定/8,000円引/エクステつけ替え放題ダイヤ毛質 ¥30,000 指名料 ¥0 来店日条件： 指定なし 対象スタイリスト： HANNAH NAGOYA、atsuki 、ikki 、Yukino 、KANATA 、SUZUKA Jr、RICO Jr その他条件： エクステを付け替える方限定 スタイリストを指名 特定のスタイリストの指名が必須のクーポンです。 HANNAH NAGOYA atsuki ikki Yukino KANATA SUZUKA Jr RICO Jr HANNAH NAGOYA スタイリスト（歴4年） 指名料：¥0 店長Ai 以外のスタッフが施術します 店長Ai指名が不可のメニューです。店長AI以外のスタッフが施術します 詳細を見る 日時を選"
+      "pageHint": "HOT PEPPER Beauty 国内最大級のヘアサロン ・リラク＆ビューティーサロン検索・予約サイト PRODUCED BY RECRUIT 国内最大級のヘアサロン ・リラク＆ビューティーサロン検索・予約サイト ヘルプ マイページ 美容院・美容室・ヘアサロン検索トップ ヘアサロン ヘアスタイル ネイル・まつげサロン ネイルカタログ リラクサロン エステサロン 美容クリニック 総合トップ > 美容院・美容室・ヘアサロン検索トップ > 東海トップ > 名駅・栄・金山・御器所・本山・大曽根トップ > HANNAH名古屋 プルシールエクステ直営サロン【ハンナ】 即時予約 HANNAH名古屋 プルシールエクステ直営サロン【ハンナ】 ハンナ ナゴヤ プルシールエクステチョクエイサロン STEP1 クーポン・メニューを選ぶ STEP2 日時を指定する STEP3 お客様情報入力 STEP4 予約内容の確認 予約完了 選択済クーポン・メニュー 施術時間合計（目安）：2時間30分 全員 期間限定 11/3(火)～11/15(日) スタイリスト指定 【10月10名限定】モデル極つやカラー＋ダイヤ×スーパーロングMIX付け放題 ¥30,000 来店日条件： 2026年11月03日(火)～2026年11月15日(日) 対象スタイリスト： HANNAH NAGOYA、KANATA 、SUZUKA Jr、RICO Jr その他条件： SNS撮影が可能な方限定 スタイリストを指名 特定のスタイリストの指名が必須のクーポンです。 HANNAH NAGOYA KANATA SUZUKA Jr RICO Jr HANNAH NAGOYA スタイリスト（歴4年） 店長Ai 以外のスタッフが施術します 店長Ai指名が不可のメニューです。店長AI以外のスタッフが施術します 詳細を見る 日時を選択 前の一週間 2"
     },
     "ai": {
       "key": "ai",
@@ -771,7 +757,7 @@
         "score": 250,
         "url": "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000541642&couponId=CP00000010470629&add=0&addMenu=0&rootCd=10"
       },
-      "availableSlotCount": 94,
+      "availableSlotCount": 88,
       "dates": [
         {
           "dateLabel": "2026-11-04",
@@ -870,8 +856,7 @@
             "14:00",
             "14:30",
             "15:00",
-            "15:30",
-            "16:00"
+            "15:30"
           ]
         },
         {
@@ -892,18 +877,6 @@
         }
       ],
       "slots": [
-        {
-          "dateLabel": "",
-          "time": "10:30",
-          "status": "◎",
-          "href": ""
-        },
-        {
-          "dateLabel": "",
-          "time": "10:30",
-          "status": "◎",
-          "href": ""
-        },
         {
           "dateLabel": "2026-11-04",
           "time": "11:00",
@@ -969,18 +942,6 @@
           "time": "16:00",
           "status": "◎",
           "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261104&rsvRequestTime1=1600"
-        },
-        {
-          "dateLabel": "",
-          "time": "10:30",
-          "status": "◎",
-          "href": ""
-        },
-        {
-          "dateLabel": "",
-          "time": "10:30",
-          "status": "◎",
-          "href": ""
         },
         {
           "dateLabel": "",
@@ -1415,18 +1376,6 @@
           "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261114&rsvRequestTime1=1530"
         },
         {
-          "dateLabel": "2026-11-14",
-          "time": "16:00",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261114&rsvRequestTime1=1600"
-        },
-        {
-          "dateLabel": "",
-          "time": "10:30",
-          "status": "◎",
-          "href": ""
-        },
-        {
           "dateLabel": "2026-11-15",
           "time": "11:00",
           "status": "◎",
@@ -1470,16 +1419,8 @@
         "score": 270,
         "url": "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000541642&couponId=CP00000011054570&add=0&addMenu=0&rootCd=10"
       },
-      "availableSlotCount": 129,
+      "availableSlotCount": 124,
       "dates": [
-        {
-          "dateLabel": "2026-11-03",
-          "times": [
-            "14:30",
-            "17:30",
-            "18:00"
-          ]
-        },
         {
           "dateLabel": "2026-11-04",
           "times": [
@@ -1628,9 +1569,7 @@
             "14:00",
             "14:30",
             "15:00",
-            "15:30",
-            "16:00",
-            "16:30"
+            "15:30"
           ]
         },
         {
@@ -1653,24 +1592,6 @@
         }
       ],
       "slots": [
-        {
-          "dateLabel": "2026-11-03",
-          "time": "14:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261103&rsvRequestTime1=1430"
-        },
-        {
-          "dateLabel": "2026-11-03",
-          "time": "17:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261103&rsvRequestTime1=1730"
-        },
-        {
-          "dateLabel": "2026-11-03",
-          "time": "18:00",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261103&rsvRequestTime1=1800"
-        },
         {
           "dateLabel": "2026-11-04",
           "time": "11:00",
@@ -2336,18 +2257,6 @@
           "time": "15:30",
           "status": "◎",
           "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261114&rsvRequestTime1=1530"
-        },
-        {
-          "dateLabel": "2026-11-14",
-          "time": "16:00",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261114&rsvRequestTime1=1600"
-        },
-        {
-          "dateLabel": "2026-11-14",
-          "time": "16:30",
-          "status": "◎",
-          "href": "https://beauty.hotpepper.jp/CSP/bt/reserve/afterSchedule?storeId=H000541642&rsvRequestDate1=20261114&rsvRequestTime1=1630"
         },
         {
           "dateLabel": "2026-11-15",
