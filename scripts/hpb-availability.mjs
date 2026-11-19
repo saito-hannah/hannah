@@ -92,6 +92,15 @@ async function getCouponCandidates(page) {
 
 function pickCoupon(candidates, category) {
   return candidates
+    .filter(c => {
+      if (category.key !== "model") return true;
+      const t = clean(c.context);
+      // Jr staff being listed alongside senior staff does not make a normal coupon a model coupon.
+      const modelOffer = /モデル価格|施術モデル|モデル施術|Jr(?:担当|限定)|ジュニア(?:担当|限定)/i.test(t);
+      const jrOnly = /(?:SUZUKA\\s*Jr|RICO\\s*Jr)/i.test(t) &&
+        !/HANNAH NAGOYA|atsuki|ikki|Yukino|KANATA|\\bAi\\b/i.test(t);
+      return modelOffer || jrOnly;
+    })
     .map(c => ({ ...c, score: category.score(c.context) }))
     .filter(c => c.score > 0)
     .sort((a, b) => b.score - a.score)[0] || null;
